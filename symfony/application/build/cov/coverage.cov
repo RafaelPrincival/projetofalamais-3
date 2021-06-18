@@ -1,0 +1,678 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/rsilveira/application/src/ApiBundle/Controller/ApiController.php' => 
+  array (
+    41 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    42 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    44 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    45 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    47 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    48 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    49 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    50 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    51 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    52 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    54 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    58 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    60 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    63 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    64 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    67 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    68 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    71 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    72 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    74 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate',
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    79 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Entity/Call.php' => 
+  array (
+    84 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    85 => NULL,
+    96 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    98 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    99 => NULL,
+    108 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    109 => NULL,
+    120 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    122 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    123 => NULL,
+    132 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    133 => NULL,
+    144 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    146 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    147 => NULL,
+    156 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    157 => NULL,
+    168 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    170 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    171 => NULL,
+    180 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    181 => NULL,
+    192 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    194 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    195 => NULL,
+    204 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    205 => NULL,
+    216 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    218 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    219 => NULL,
+    228 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    229 => NULL,
+    240 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    242 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    243 => NULL,
+    252 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter',
+    ),
+    253 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Repository/PlanRepository.php' => 
+  array (
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Entity/CityCode.php' => 
+  array (
+    42 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CityCodeTest::testGetterAndSetter',
+    ),
+    43 => NULL,
+    54 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CityCodeTest::testGetterAndSetter',
+    ),
+    56 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CityCodeTest::testGetterAndSetter',
+    ),
+    57 => NULL,
+    66 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\CityCodeTest::testGetterAndSetter',
+    ),
+    67 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/PlanRateCalculation.php' => 
+  array (
+    27 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    29 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    31 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    32 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    33 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    35 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    38 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    39 => NULL,
+    47 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testSetCall',
+      1 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    49 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testSetCall',
+      1 => 'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate',
+    ),
+    50 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Repository/CityCodeRepository.php' => 
+  array (
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Entity/Plan.php' => 
+  array (
+    43 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    44 => NULL,
+    55 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    57 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    58 => NULL,
+    67 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    68 => NULL,
+    79 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    81 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    82 => NULL,
+    91 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter',
+    ),
+    92 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Service/Normalize/CallNormalizer.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize',
+    ),
+    21 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize',
+    ),
+    23 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize',
+    ),
+    24 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize',
+    ),
+    28 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize',
+    ),
+    29 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Repository/CallRepository.php' => 
+  array (
+    24 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Repository\\CallRepositoryTest::testFindByOriginAndDestination',
+    ),
+    25 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Repository\\CallRepositoryTest::testFindByOriginAndDestination',
+    ),
+    26 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Repository\\CallRepositoryTest::testFindByOriginAndDestination',
+    ),
+    27 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/RateCalculation.php' => 
+  array (
+    28 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    29 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    30 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    31 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    32 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    35 => NULL,
+    43 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testSetCall',
+      1 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    45 => 
+    array (
+      0 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testSetCall',
+      1 => 'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate',
+    ),
+    46 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/ApiBundle.php' => 
+  array (
+  ),
+  '/home/rsilveira/application/src/AppBundle/AppBundle.php' => 
+  array (
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Controller/AbstractController.php' => 
+  array (
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    45 => NULL,
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/RateCalculationInterface.php' => 
+  array (
+  ),
+  '/home/rsilveira/application/src/AppBundle/Controller/AppController.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'Tests\\AppBundle\\Controller\\AppControllerTest::testIndexAction',
+    ),
+    22 => 
+    array (
+      0 => 'Tests\\AppBundle\\Controller\\AppControllerTest::testIndexAction',
+    ),
+    24 => 
+    array (
+      0 => 'Tests\\AppBundle\\Controller\\AppControllerTest::testIndexAction',
+    ),
+    25 => NULL,
+  ),
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadCallData.php' => 
+  array (
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+  ),
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadCityCodeData.php' => 
+  array (
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+  ),
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadPlanData.php' => 
+  array (
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'Tests\\ApiBundle\\Controller\\ApiControllerTest::testCalculate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Entity\\CallTest::testGetterAndSetter' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Entity\\CityCodeTest::testGetterAndSetter' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Entity\\PlanTest::testGetterAndSetter' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Repository\\CallRepositoryTest::testFindByOriginAndDestination' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Service\\Normalize\\CallNormalizerTest::testNormalize' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testSetCall' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Service\\Strategy\\PlanRateCalculationTest::testCalculate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testSetCall' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\ApiBundle\\Service\\Strategy\\RateCalculationTest::testCalculate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Tests\\AppBundle\\Controller\\AppControllerTest::testIndexAction' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/rsilveira/application/src/ApiBundle/ApiBundle.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Controller/AbstractController.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Controller/ApiController.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadCallData.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadCityCodeData.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/DataFixtures/ORM/LoadPlanData.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Entity/Call.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Entity/CityCode.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Entity/Plan.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Repository/CallRepository.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Repository/CityCodeRepository.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Repository/PlanRepository.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Service/Normalize/CallNormalizer.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/PlanRateCalculation.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/RateCalculation.php' => true,
+  '/home/rsilveira/application/src/ApiBundle/Service/Strategy/RateCalculationInterface.php' => true,
+  '/home/rsilveira/application/src/AppBundle/AppBundle.php' => true,
+  '/home/rsilveira/application/src/AppBundle/Controller/AppController.php' => true,
+));
+
+return $coverage;

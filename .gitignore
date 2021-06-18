@@ -1,0 +1,10 @@
+docker/database/data
+docker/volumes/cache/dev/*
+docker/volumes/cache/prod/*
+docker/volumes/logs/*
+!docker/database/data/.gitkeep
+.idea/
+symfony/application/vendor/
+.env
+redis/
+.DS_Store

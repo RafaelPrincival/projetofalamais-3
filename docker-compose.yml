@@ -1,0 +1,49 @@
+version: "2"
+services:
+  database:
+    image: mysql:5.7
+    container_name: database
+    volumes:
+      - ./docker/database/data:/var/lib/mysql:rw,cached
+      - ./docker/database/dumps:/dumps:rw,cached
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    expose:
+      - "3306"
+    ports:
+      - "3307:3306"
+  application:
+    build:
+      context: symfony
+      args:
+        - CODE_ENV=dev
+    environment:
+      - CODE_ENV=dev
+    expose:
+      - "9000"
+    image: application-image
+    container_name: application
+    volumes:
+      - ./symfony/application/:/home/rsilveira/application
+      - ./docker/volumes/logs:/home/rsilveira/application/var/logs
+      - ./docker/volumes/cache:/home/rsilveira/application/var/cache
+  nginx:
+    build:
+      context: docker/nginx
+      args:
+        - CODE_ENV=dev
+    image: nginx-image
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes_from:
+      - application
+    volumes:
+      - nginx_logs:/var/log/nginx:rw,cached
+volumes:
+  php_logs:
+  php_cache:
+  nginx_logs:

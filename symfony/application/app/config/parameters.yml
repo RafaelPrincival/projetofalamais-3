@@ -1,0 +1,11 @@
+parameters:
+    database_host: database
+    database_port: null
+    database_name: falemais
+    database_user: falemais
+    database_password: falemais
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 174f101cb504806b86464610e4bd2fcfb5946708

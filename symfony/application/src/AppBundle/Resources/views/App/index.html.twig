@@ -1,0 +1,94 @@
+
+{% extends 'AppBundle:Component:base.html.twig' %}
+
+{% block body %}
+    <div class="container contact-form">
+        <div class="contact-image">
+            <img src="{{ asset('assets/img/falemais.png') }}" alt="FaleMais"/>
+        </div>
+        <form method="post">
+            <h3>Simulate your call</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="origin">Origin</label>
+                        <select class="form-control" id="origin">
+                            {% for code in codes %}
+                                <option value="{{ code.id }}">{{ code.code }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time (min)*</label>
+                        <input type="number" name="time" class="form-control" value="10" required="required" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="button" class="btn btn-primary" name="btnSubmit" value="Simulate" id="simulate"/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select class="form-control" id="destination">
+                            {% for code in codes %}
+                                <option value="{{ code.id }}">{{ code.code }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plan">Plan</label>
+                        <select class="form-control" id="plan">
+                            {% for plan in plans %}
+                                <option value="{{ plan.id }}">{{ plan.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Results</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Origin</th>
+                            <th>Destination</th>
+                            <th>Time</th>
+                            <th>Plan</th>
+                            <th>Plan cost</th>
+                            <th>Without Plan cost</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="origin-result"></span></td>
+                                <td><span id="destination-result"></span></td>
+                                <td><span id="time-result"></span></td>
+                                <td><span id="plan-result"></span></td>
+                                <td><span id="plan-cost-result"></span></td>
+                                <td><span id="without-plan-cost-result"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
